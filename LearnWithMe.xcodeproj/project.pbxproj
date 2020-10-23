@@ -10,22 +10,30 @@
 		4D983369254230DD00685891 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D983368254230DD00685891 /* MenuView.swift */; };
 		4D98336C2542429E00685891 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98336B2542429E00685891 /* Home.swift */; };
 		4D98336F2542509700685891 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98336E2542509700685891 /* HomeView.swift */; };
+		4D983374254317E800685891 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D983373254317E800685891 /* UpdateList.swift */; };
 		4DA620842540F21F0068E175 /* LearnWithMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA620832540F21F0068E175 /* LearnWithMeApp.swift */; };
 		4DA620862540F21F0068E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA620852540F21F0068E175 /* ContentView.swift */; };
 		4DA620882540F2210068E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA620872540F2210068E175 /* Assets.xcassets */; };
 		4DA6208B2540F2210068E175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6208A2540F2210068E175 /* Preview Assets.xcassets */; };
+		4DC86D6E2543480100EBE798 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC86D6D2543480100EBE798 /* UpdateDetail.swift */; };
+		4DC86D71254348A400EBE798 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC86D70254348A400EBE798 /* UpdateStore.swift */; };
+		4DC86D7425434A3700EBE798 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC86D7325434A3700EBE798 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D983368254230DD00685891 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		4D98336B2542429E00685891 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4D98336E2542509700685891 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D983373254317E800685891 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		4DA620802540F21F0068E175 /* LearnWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA620832540F21F0068E175 /* LearnWithMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWithMeApp.swift; sourceTree = "<group>"; };
 		4DA620852540F21F0068E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DA620872540F2210068E175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA6208A2540F2210068E175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DA6208C2540F2210068E175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC86D6D2543480100EBE798 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		4DC86D70254348A400EBE798 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		4DC86D7325434A3700EBE798 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				4D98336B2542429E00685891 /* Home.swift */,
 				4D98336E2542509700685891 /* HomeView.swift */,
 				4D983368254230DD00685891 /* MenuView.swift */,
+				4DC86D6D2543480100EBE798 /* UpdateDetail.swift */,
+				4DC86D70254348A400EBE798 /* UpdateStore.swift */,
+				4DC86D7325434A3700EBE798 /* TabBar.swift */,
+				4D983373254317E800685891 /* UpdateList.swift */,
 				4DA620872540F2210068E175 /* Assets.xcassets */,
 				4DA6208C2540F2210068E175 /* Info.plist */,
 				4DA620892540F2210068E175 /* Preview Content */,
@@ -147,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC86D7425434A3700EBE798 /* TabBar.swift in Sources */,
+				4DC86D6E2543480100EBE798 /* UpdateDetail.swift in Sources */,
 				4DA620862540F21F0068E175 /* ContentView.swift in Sources */,
 				4D983369254230DD00685891 /* MenuView.swift in Sources */,
+				4D983374254317E800685891 /* UpdateList.swift in Sources */,
+				4DC86D71254348A400EBE798 /* UpdateStore.swift in Sources */,
 				4D98336C2542429E00685891 /* Home.swift in Sources */,
 				4D98336F2542509700685891 /* HomeView.swift in Sources */,
 				4DA620842540F21F0068E175 /* LearnWithMeApp.swift in Sources */,
