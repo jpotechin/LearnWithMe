@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D983369254230DD00685891 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D983368254230DD00685891 /* MenuView.swift */; };
 		4D98336C2542429E00685891 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98336B2542429E00685891 /* Home.swift */; };
+		4D98336F2542509700685891 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98336E2542509700685891 /* HomeView.swift */; };
 		4DA620842540F21F0068E175 /* LearnWithMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA620832540F21F0068E175 /* LearnWithMeApp.swift */; };
 		4DA620862540F21F0068E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA620852540F21F0068E175 /* ContentView.swift */; };
 		4DA620882540F2210068E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA620872540F2210068E175 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		4D983368254230DD00685891 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		4D98336B2542429E00685891 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4D98336E2542509700685891 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4DA620802540F21F0068E175 /* LearnWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA620832540F21F0068E175 /* LearnWithMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWithMeApp.swift; sourceTree = "<group>"; };
 		4DA620852540F21F0068E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4DA620832540F21F0068E175 /* LearnWithMeApp.swift */,
 				4DA620852540F21F0068E175 /* ContentView.swift */,
 				4D98336B2542429E00685891 /* Home.swift */,
+				4D98336E2542509700685891 /* HomeView.swift */,
 				4D983368254230DD00685891 /* MenuView.swift */,
 				4DA620872540F2210068E175 /* Assets.xcassets */,
 				4DA6208C2540F2210068E175 /* Info.plist */,
@@ -147,6 +150,7 @@
 				4DA620862540F21F0068E175 /* ContentView.swift in Sources */,
 				4D983369254230DD00685891 /* MenuView.swift in Sources */,
 				4D98336C2542429E00685891 /* Home.swift in Sources */,
+				4D98336F2542509700685891 /* HomeView.swift in Sources */,
 				4DA620842540F21F0068E175 /* LearnWithMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
